@@ -1,0 +1,15 @@
+.back_arrow {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.colorChange {
+  position: fixed;
+  padding-left: 20px;
+  left: 0px;
+  top: 0px;
+  background-color: #2c4cc3;
+  width: 100%;
+  transition: 0.1s ease-out;
+}

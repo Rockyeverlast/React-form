@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Registration from "./pages/Registration";
 import "./App.css";
+import SingUp from "./pages/SingUp";
+import SignIn from "./pages/SignIn";
 
 function App() {
   return (
@@ -8,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Registration />} />
-          {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+          <Route path="signup" element={<SingUp />} />
+          <Route path="signin" element={<SignIn />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
       </BrowserRouter>
     </>
